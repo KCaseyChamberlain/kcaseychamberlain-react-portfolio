@@ -7,8 +7,8 @@ function Resume() {
     return (
         <section className="my-5" >
             <h1 id="resume">My Resume</h1>
-            <img src={resumeImage1} className="my-2" style={{ width: "100%" }} alt="resume page 1" />
-            <img src={resumeImage2} className="my-2" style={{ width: "100%" }} alt="resume page 2" />
+            <img src={resumeImage1} className="my-2" style={{ width: "50%" }} alt="resume page 1" />
+            <img src={resumeImage2} className="my-2" style={{ width: "50%" }} alt="resume page 2" />
             <div className="my-2">
                 <a data-testid="devresdoc" href="https://docs.google.com/document/d/1JZmTZZerYMMK7dJCxq2Iew3pQl12C7OrLxBNVcnie2M/edit?usp=sharing" target="blank">
                     <h5>Download & View Resume Here!</h5>
