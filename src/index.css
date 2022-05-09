@@ -1,21 +1,20 @@
-
 main {
-	margin: 0 auto;
-	max-width: 90%;
+  margin: 0 auto;
+  max-width: 90%;
   padding: 50px 30px;
 }
+
 :root {
   --primary: #8c54ff;
   --secondary: #F3A847;
   --tertiary: #B12704;
   --light: #fafafa;
-  --dark: #000000;
-  --darker: #111111;
+  --red: #b93131;
+  --reder: #111111;
   --error: rgb(228, 46, 1);
   --spacing-one: calc(1rem * 0.5);
   --spacing-two: calc(1rem);
   --spacing-five: calc(2.5rem);
-
 }
 
 * {
@@ -34,7 +33,7 @@ body {
   line-height: 1.5;
   font-size: 18px;
   letter-spacing: .1em;
-  background: var(--dark);
+  background: var(--red);
   color: var(--light);
   font-family: 'Poiret One', cursive;
 
@@ -92,7 +91,11 @@ a:hover {
 }
 
 header {
-  background: var(--dark);
+  background: var(--reder);
+}
+
+footer {
+  background: var(--reder);
 }
 
 header a {
@@ -135,7 +138,7 @@ form {
 input {
   font-size: 1rem;
   padding: 0.25rem;
-  border: 1px solid var(--dark);
+  border: 1px solid var(--red);
   outline: none;
   border-radius: 3px;
   transition: box-shadow 0.2s;
@@ -154,15 +157,15 @@ nav a:hover {
   text-decoration: none;
 }
 
-nav  li {
+nav li {
   cursor: pointer;
 }
 
 textarea {
-	width: 600px;
-	height: 120px;
-	border: 3px solid #cccccc;
-	padding: 5px;
+  width: 600px;
+  height: 120px;
+  border: 3px solid #cccccc;
+  padding: 5px;
 }
 
 .container {
@@ -243,35 +246,35 @@ textarea {
 }
 
 .modalBackdrop {
-	background: rgba(0, 0, 0, .65);
-	bottom: 0;
-	left: 0;
-	overflow: auto;
-	position: fixed;
-	right: 0;
-	top: 0;
-	z-index: 1;
+  background: rgba(0, 0, 0, .65);
+  bottom: 0;
+  left: 0;
+  overflow: auto;
+  position: fixed;
+  right: 0;
+  top: 0;
+  z-index: 1;
 }
 
 .modalContainer {
-	background: var(--darker);
-	border-radius: 5px;
-	margin: 50px auto;
-	padding: 30px;
-	width: 80%;
+  background: var(--reder);
+  border-radius: 5px;
+  margin: 50px auto;
+  padding: 30px;
+  width: 80%;
 }
 
 .portfolio-name-title {
-	font-weight: 600;
-	margin-bottom: 25px;
+  font-weight: 600;
+  margin-bottom: 25px;
   padding-top: 0px;
 }
 
-.live-repos{
+.live-repos {
   width: 50%;
   text-align: right;
-position: relative;
-left: 50%;
+  position: relative;
+  left: 50%;
 }
 
 .live-image img:hover {
@@ -279,27 +282,31 @@ left: 50%;
 }
 
 button {
-	background: var(--primary);
-	border: 0;
-	border-radius: 5px;
-	color: #fff;
-	cursor: pointer;
-	font-size: 16px;
-	font-weight: 600;
-	margin-bottom: 30px;
-	padding: 10px 15px;	
+  background: var(--primary);
+  border: 0;
+  border-radius: 5px;
+  color: #fff;
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: 600;
+  margin-bottom: 30px;
+  padding: 10px 15px;
 }
 
 a {
-	border-radius: 5px;
-	color: var(--primary);
-	font-weight: 600;
-	padding: 2px 4px;
-	margin-left: -2px;
-	margin-right: -2px;
-	
+  border-radius: 5px;
+  color: var(--primary);
+  font-weight: 600;
+  padding: 2px 4px;
+  margin-left: -2px;
+  margin-right: -2px;
+
 }
 
 .navActive {
-  color: var(--secondary);
+  color: var(--reder);
+}
+
+.nav-selected{
+  color:pink;
 }
