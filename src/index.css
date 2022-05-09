@@ -256,16 +256,26 @@ textarea {
 .modalContainer {
 	background: var(--darker);
 	border-radius: 5px;
-	max-width: 100%;
 	margin: 50px auto;
-	padding: 15px;
-	width: 960px;
+	padding: 30px;
+	width: 80%;
 }
 
-.modalTitle {
-	font-size: 18px;
+.portfolio-name-title {
 	font-weight: 600;
 	margin-bottom: 25px;
+  padding-top: 0px;
+}
+
+.live-repos{
+  width: 50%;
+  text-align: right;
+position: relative;
+left: 50%;
+}
+
+.live-image img:hover {
+  opacity: 75%;
 }
 
 button {
