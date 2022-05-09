@@ -1,5 +1,4 @@
 import React from "react";
-// import { capitalizeFirstLetter } from "../../utils/helpers";
 
 function Nav(props) {
 
@@ -18,11 +17,10 @@ function Nav(props) {
         setResumeSelected,
     } = props;
 
-    // NEED TO ADD .nav-selected CLASS set___Selected is 
     return (
         <header className="flex-row px-1">
             <h2>
-                <a data-testid="link" href="/">
+                <a id="app-creator" href="/">
                     Casey Chamberlain
                 </a>
             </h2>
@@ -31,7 +29,7 @@ function Nav(props) {
                 <ul className="flex-row">
 
                     <li >
-                        <a className={`mx-2 ${aboutSelected && 'navActive'}`} data-testid="about" href="#about" onClick={() => {
+                        <a className={`mx-2 nav-title ${aboutSelected && 'navActive'}`} href="#about" onClick={() => {
                             setAboutSelected(true);
                             setContactSelected(false);
                             setPortfolioSelected(false);
@@ -42,7 +40,7 @@ function Nav(props) {
                     </li>
 
                     <li >
-                        <a className={`mx-2 ${contactSelected && 'navActive'}`} data-testid="contact" href="#contact" onClick={() => {
+                        <a className={`mx-2 nav-title ${contactSelected && 'navActive'}`} href="#contact" onClick={() => {
                             setContactSelected(true);
                             setAboutSelected(false);
                             setPortfolioSelected(false);
@@ -53,7 +51,7 @@ function Nav(props) {
                     </li>
 
                     <li >
-                        <a className={`mx-2 ${portfolioSelected && 'navActive'}`} data-testid="portfolio" href="#portfolio" onClick={() => {
+                        <a className={`mx-2 nav-title ${portfolioSelected && 'navActive'}`} href="#portfolio" onClick={() => {
                             setPortfolioSelected(true)
                             setAboutSelected(false);
                             setContactSelected(false);
@@ -64,7 +62,7 @@ function Nav(props) {
                     </li>
 
                     <li >
-                        <a className={`mx-2 ${resumeSelected && 'navActive'}`} data-testid="resume" href="#resume" onClick={() => {
+                        <a className={`mx-2 nav-title ${resumeSelected && 'navActive'}`} href="#resume" onClick={() => {
                             setResumeSelected(true)
                             setAboutSelected(false);
                             setContactSelected(false);

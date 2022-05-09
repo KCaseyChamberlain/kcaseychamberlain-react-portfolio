@@ -91,11 +91,15 @@ a:hover {
 }
 
 header {
-  background: var(--reder);
+  background: rgb(33, 30, 30);
   padding: 30px;
 }
-#about{
-font-weight: bolder;
+
+#about {
+  font-weight: bolder;
+  text-align: center;
+  margin-right: 20%;
+  text-shadow: white 1px 1px;
 }
 
 footer {
@@ -106,8 +110,15 @@ footer a {
   color: var(--light);
 }
 
-footer a:hover{
+footer a:hover {
   color: grey
+}
+
+#about-text p {
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  color: rgb(28, 27, 27);
+  font-size: x-large;
+border-bottom: solid #111111;
 }
 
 header a {
@@ -165,6 +176,10 @@ li {
   list-style: none;
 }
 
+nav a {
+  font-size: x-large;
+}
+
 nav a:hover {
   text-decoration: none;
 }
@@ -173,11 +188,27 @@ nav li {
   cursor: pointer;
 }
 
+#app-creator {
+  color: #cae5ce;
+  text-shadow: white 1px 1px;
+
+}
+
 textarea {
   width: 600px;
   height: 120px;
   border: 3px solid #cccccc;
   padding: 5px;
+}
+
+p.error-text {
+  font-size: x-large;
+  color: black;
+}
+
+label {
+  color: black;
+  text-shadow: grey 1px 1px;
 }
 
 .container {
@@ -257,18 +288,7 @@ textarea {
   cursor: pointer;
 }
 
-.modalBackdrop {
-  background: rgba(0, 0, 0, .65);
-  bottom: 0;
-  left: 0;
-  overflow: auto;
-  position: fixed;
-  right: 0;
-  top: 0;
-  z-index: 1;
-}
-
-.modalContainer {
+.portfolioBlock {
   background: var(--reder);
   border-radius: 5px;
   margin: 50px auto;
@@ -280,6 +300,29 @@ textarea {
   font-weight: 600;
   margin-bottom: 25px;
   padding-top: 0px;
+  color: grey;
+  text-shadow: white 1px 1px;
+}
+
+#resume {
+  font-weight: 600;
+  margin-bottom: 25px;
+  padding-top: 0px;
+  color: black;
+  text-shadow: grey 1px 1px;
+}
+
+.my-2 a {
+  font-weight: 600;
+  margin-bottom: 25px;
+  padding-top: 0px;
+  color: black;
+  text-shadow: grey 1px 1px;
+}
+
+#dev-pro {
+  color: black;
+  font-weight: bold;
 }
 
 .live-repos {
@@ -289,15 +332,21 @@ textarea {
   left: 50%;
 }
 
+.live-repos a {
+  color: var(--red);
+  text-shadow: grey 1px 1px;
+
+}
+
 .live-image img:hover {
   opacity: 75%;
 }
 
 button {
-  background: var(--primary);
+  background: pink;
   border: 0;
   border-radius: 5px;
-  color: #fff;
+  color: black;
   cursor: pointer;
   font-size: 16px;
   font-weight: 600;
@@ -319,7 +368,7 @@ a {
   color: pink;
 }
 
-.navActive:hover{
+.navActive:hover {
   text-shadow: 2px 2px;
-  color: red;
+  color: #b93131;
 }

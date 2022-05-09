@@ -6,17 +6,17 @@ const Portfolio = () => {
         <div className='container'>
             <div className="flex-row ">
 
-                <div className='modalContainer flex-row'>
+                <div className='portfolioBlock flex-row'>
                     <div className='live-image '>
                         <h2 className='portfolio-name-title'>Deep Thoughts</h2>
                         <a href="https://guarded-wave-66695.herokuapp.com/" target="blank">
                             <img
                                 src={require(`../../assets/portfolio/deep-thoughts.jpg`)}
-                                alt='test'
+                                alt='deep thoughts app demo'
                                 className="img-thumbnail mx-1"
                             />
                         </a>
-                        <p>This appication demonstrates M.E.R.N.</p>
+                        <p>This appication demonstrates a full stack M.E.R.N. project. This appication demonstrates a full stack M.E.R.N. project. This appication demonstrates a full stack M.E.R.N. project. This appication demonstrates a full stack M.E.R.N. project. This appication demonstrates a full stack M.E.R.N. project.</p>
                     </div>
 
                     <div className='live-repos '>
@@ -27,17 +27,17 @@ const Portfolio = () => {
                 </div>
 
 
-                <div className='modalContainer flex-row'>
+                <div className='portfolioBlock flex-row'>
                     <div className='live-image '>
                         <h2 className='portfolio-name-title'>Copy Cat Games</h2>
                         <a href="https://morning-spire-87893.herokuapp.com/" target="blank">
                             <img
                                 src={require(`../../assets/portfolio/copy-cat-games.jpg`)}
-                                alt='test'
+                                alt='copy cat games app demo'
                                 className="img-thumbnail mx-1"
                             />
                         </a>
-                        <p>This full stack appication demonstrates collaboration and MySQL</p>
+                        <p>This full stack appication demonstrates collaboration and MyLSQ. This full stack appication demonstrates collaboration and MyLSQ. This full stack appication demonstrates collaboration and MyLSQ. This full stack appication demonstrates collaboration and MyLSQ.</p>
                     </div>
 
                     <div className='live-repos '>
@@ -47,17 +47,17 @@ const Portfolio = () => {
                     </div>
                 </div>
 
-                <div className='modalContainer flex-row'>
+                <div className='portfolioBlock flex-row'>
                     <div className='live-image '>
                         <h2 className='portfolio-name-title'>6Day Six Weather</h2>
                         <a href="https://kcaseychamberlain.github.io/6day-six-weather/" target="blank">
                             <img
                                 src={require(`../../assets/portfolio/6day-six-weather.jpg`)}
-                                alt='test'
+                                alt='6 day six weather app demo'
                                 className="img-thumbnail mx-1"
                             />
                         </a>
-                        <p>This application demonstrates the dynamic use of public APIs</p>
+                        <p>This application demonstrates the dynamic use of public APIs. This application demonstrates the dynamic use of public APIs. This application demonstrates the dynamic use of public APIs. This application demonstrates the dynamic use of public APIs.</p>
                     </div>
 
                     <div className='live-repos '>
@@ -68,17 +68,17 @@ const Portfolio = () => {
                 </div>
 
 
-                <div className='modalContainer flex-row'>
+                <div className='portfolioBlock flex-row'>
                     <div className='live-image '>
                         <h2 className='portfolio-name-title'>Uhoo</h2>
                         <a href="https://kcaseychamberlain.github.io/uhoo/" target="blank">
                             <img
                                 src={require(`../../assets/portfolio/uhoo.jpg`)}
-                                alt='test'
+                                alt='uhoo app demo'
                                 className="img-thumbnail mx-1"
                             />
                         </a>
-                        <p>This application demonstrates the use of team work and many public APIs</p>
+                        <p>This application demonstrates the use of team work and many public APIs. This application demonstrates the use of team work and many public APIs. This application demonstrates the use of team work and many public APIs.</p>
                     </div>
 
                     <div className='live-repos '>
@@ -88,17 +88,17 @@ const Portfolio = () => {
                     </div>
                 </div>
 
-                <div className='modalContainer flex-row'>
+                <div className='portfolioBlock flex-row'>
                     <div className='live-image '>
                         <h2 className='portfolio-name-title'>Food Festival</h2>
                         <a href="https://kcaseychamberlain.github.io/food-festival/" target="blank">
                             <img
                                 src={require(`../../assets/portfolio/food-festival.jpg`)}
-                                alt='test'
+                                alt='food festival app demo'
                                 className="img-thumbnail mx-1"
                             />
                         </a>
-                        <p>This appication demonstrates offline functionality and code modularization for performance boosts</p>
+                        <p>This appication demonstrates offline functionality and code modularization for performance boosts. This appication demonstrates offline functionality and code modularization for performance boosts. This appication demonstrates offline functionality and code modularization for performance boosts. This appication demonstrates offline functionality and code modularization for performance boosts.</p>
                     </div>
 
                     <div className='live-repos '>
@@ -108,17 +108,17 @@ const Portfolio = () => {
                     </div>
                 </div>
 
-                <div className='modalContainer flex-row'>
+                <div className='portfolioBlock flex-row'>
                     <div className='live-image '>
                         <h2 className='portfolio-name-title'>Techite</h2>
                         <a href="https://calm-garden-53998.herokuapp.com/" target="blank">
                             <img
                                 src={require(`../../assets/portfolio/techite.jpg`)}
-                                alt='test'
+                                alt='techite app demo'
                                 className="img-thumbnail mx-1"
                             />
                         </a>
-                        <p>This application demonstrates full stack web development with a MySQL database</p>
+                        <p>This application demonstrates full stack web development with a MySQL database. This application demonstrates full stack web development with a MySQL database. This application demonstrates full stack web development with a MySQL database. This application demonstrates full stack web development with a MySQL database. This application demonstrates full stack web development with a MySQL database.</p>
                     </div>
 
                     <div className='live-repos '>

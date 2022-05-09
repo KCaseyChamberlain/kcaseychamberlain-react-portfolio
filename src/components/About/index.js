@@ -6,8 +6,8 @@ function About() {
     return (
         <section className="my-5" >
             <h1 id="about">Who is kcaseychamberlain?</h1>
-            <img src={coverImage} className="my-2" style={{ width: "55%" }} alt="cover" />
-            <div className="my-2">
+            <img src={coverImage} className="my-2" style={{ width: "45%", }} alt="Casey Chamberlain with dog name Cheif" />
+            <div id="about-text">
                 <p>
                     Recent full stack web developer graduate with previous analyst experience. Professionally educated at the University of Utah. Graduated from Coding Bootcamp in the spring of 2022.
                     Skills and experiences in HTML, CSS, JavaScript, Node.js, Express.js, and MySQL. Strengths in teamwork, meeting deadlines, creativity, and self reliance. Known to be a hyperactive and determined person passionate about developing full stack web applications.
