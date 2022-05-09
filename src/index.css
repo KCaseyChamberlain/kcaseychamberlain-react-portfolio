@@ -92,8 +92,11 @@ a:hover {
 
 header {
   background: var(--reder);
+  padding: 30px;
 }
-
+#about{
+font-weight: bolder;
+}
 footer {
   background: var(--reder);
 }
