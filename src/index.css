@@ -97,8 +97,17 @@ header {
 #about{
 font-weight: bolder;
 }
+
 footer {
   background: var(--reder);
+}
+
+footer a {
+  color: var(--light);
+}
+
+footer a:hover{
+  color: grey
 }
 
 header a {
@@ -307,9 +316,10 @@ a {
 }
 
 .navActive {
-  color: var(--reder);
+  color: pink;
 }
 
-.nav-selected{
-  color:pink;
+.navActive:hover{
+  text-shadow: 2px 2px;
+  color: red;
 }

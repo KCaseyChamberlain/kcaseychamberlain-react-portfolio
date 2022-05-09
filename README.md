@@ -1,6 +1,6 @@
 # kcaseychamberalain React Portfolio
 ### Description
-This web application is a React Portfolio web application. Here you will be able to view who I am, provided a way to contact me, view my previous work, and view my resume.
+This web application is a single-page React Portfolio web application. Here you will be able to view who I am, provided a way to contact me, view my previous work, and view my resume.
 ### License
 ![Github licence](https://img.shields.io/badge/license-MIT-blue.svg)
 
