@@ -6,6 +6,7 @@ function About() {
     return (
         <section className="my-5" >
             <h1 id="about">Who is kcaseychamberlain?</h1>
+            {/* creator bio cover image */}
             <img src={coverImage} className="my-2" style={{ width: "45%", }} alt="Casey Chamberlain with dog name Cheif" />
             <div id="about-text">
                 <p>

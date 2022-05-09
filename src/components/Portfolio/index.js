@@ -5,7 +5,7 @@ const Portfolio = () => {
     return (
         <div className='container'>
             <div className="flex-row ">
-
+                {/* deep thoughts */}
                 <div className='portfolioBlock flex-row'>
                     <div className='live-image '>
                         <h2 className='portfolio-name-title'>Deep Thoughts</h2>
@@ -26,7 +26,7 @@ const Portfolio = () => {
                     </div>
                 </div>
 
-
+                {/* copy cat games */}
                 <div className='portfolioBlock flex-row'>
                     <div className='live-image '>
                         <h2 className='portfolio-name-title'>Copy Cat Games</h2>
@@ -47,6 +47,7 @@ const Portfolio = () => {
                     </div>
                 </div>
 
+                {/* 6day six weather */}
                 <div className='portfolioBlock flex-row'>
                     <div className='live-image '>
                         <h2 className='portfolio-name-title'>6Day Six Weather</h2>
@@ -67,7 +68,7 @@ const Portfolio = () => {
                     </div>
                 </div>
 
-
+                {/* uhoo */}
                 <div className='portfolioBlock flex-row'>
                     <div className='live-image '>
                         <h2 className='portfolio-name-title'>Uhoo</h2>
@@ -88,6 +89,7 @@ const Portfolio = () => {
                     </div>
                 </div>
 
+                {/* food festival */}
                 <div className='portfolioBlock flex-row'>
                     <div className='live-image '>
                         <h2 className='portfolio-name-title'>Food Festival</h2>
@@ -108,6 +110,7 @@ const Portfolio = () => {
                     </div>
                 </div>
 
+                {/* techite */}
                 <div className='portfolioBlock flex-row'>
                     <div className='live-image '>
                         <h2 className='portfolio-name-title'>Techite</h2>
@@ -126,9 +129,8 @@ const Portfolio = () => {
                             <h4>GitHub</h4>
                         </a>
                     </div>
-
                 </div>
-
+                
             </div>
         </div>
     );

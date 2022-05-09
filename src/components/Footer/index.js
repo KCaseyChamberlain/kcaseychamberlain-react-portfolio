@@ -5,7 +5,6 @@ function Footer() {
     return (
         <footer className="flex-row px-1">
             <nav>
-
                 <ul className="flex-row">
 
                     <li className={"mx-2"}>
@@ -25,7 +24,6 @@ function Footer() {
                     </li>
 
                 </ul>
-
             </nav>
         </footer>
     );

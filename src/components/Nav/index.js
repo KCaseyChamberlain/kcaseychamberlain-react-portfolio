@@ -1,9 +1,8 @@
 import React from "react";
 
 function Nav(props) {
-
+    // passed to App.js
     const {
-
         contactSelected,
         setContactSelected,
 
@@ -29,6 +28,7 @@ function Nav(props) {
                 <ul className="flex-row">
 
                     <li >
+                        {/* if aboutSelected is true, the navActive class will be added to the <a> tag */}
                         <a className={`mx-2 nav-title ${aboutSelected && 'navActive'}`} href="#about" onClick={() => {
                             setAboutSelected(true);
                             setContactSelected(false);
