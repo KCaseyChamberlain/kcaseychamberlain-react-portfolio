@@ -19,7 +19,7 @@ function Nav(props) {
     return (
         <header className="flex-row px-1">
             <h2>
-                <a id="app-creator" href="/">
+                <a id="app-creator" href="/kcaseychamberlain-react-portfolio">
                     Casey Chamberlain
                 </a>
             </h2>

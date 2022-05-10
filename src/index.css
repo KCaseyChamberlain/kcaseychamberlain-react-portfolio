@@ -38,7 +38,6 @@ body {
   font-family: 'Poiret One', cursive;
 
 }
-
 h1,
 h2,
 h3,
@@ -191,7 +190,6 @@ nav li {
 #app-creator {
   color: #cae5ce;
   text-shadow: white 1px 1px;
-
 }
 
 textarea {
@@ -339,7 +337,7 @@ label {
 }
 
 .live-image img:hover {
-  opacity: 75%;
+  opacity: 90%;
 }
 
 button {
