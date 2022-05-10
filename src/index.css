@@ -337,7 +337,8 @@ label {
 }
 
 .live-image img:hover {
-  opacity: 90%;
+  border-radius: 10%;
+
 }
 
 button {
