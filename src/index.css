@@ -10,11 +10,8 @@ main {
   --tertiary: #B12704;
   --light: #fafafa;
   --red: #b93131;
-  --reder: #111111;
+  --black: #111111;
   --error: rgb(228, 46, 1);
-  --spacing-one: calc(1rem * 0.5);
-  --spacing-two: calc(1rem);
-  --spacing-five: calc(2.5rem);
 }
 
 * {
@@ -37,41 +34,6 @@ body {
   color: var(--light);
   font-family: 'Poiret One', cursive;
 
-}
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-  font-family: 'Roboto', sans-serif;
-  font-weight: 500;
-  margin: 5px 0;
-  line-height: 1.25;
-}
-
-h1 {
-  font-size: 2.25rem;
-}
-
-h2 {
-  font-size: 2rem;
-}
-
-h3 {
-  font-size: 1.75rem;
-}
-
-h4 {
-  font-size: 1.5rem;
-}
-
-h5 {
-  font-size: 1.25rem;
-}
-
-h6 {
-  font-size: 1rem;
 }
 
 p {
@@ -102,7 +64,7 @@ header {
 }
 
 footer {
-  background: var(--reder);
+  background: var(--black);
 }
 
 footer a {
@@ -114,10 +76,10 @@ footer a:hover {
 }
 
 #about-text p {
-  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
   color: rgb(28, 27, 27);
   font-size: x-large;
-border-bottom: solid #111111;
+  border-bottom: solid #111111;
 }
 
 header a {
@@ -229,51 +191,6 @@ label {
   justify-content: flex-end;
 }
 
-.mx-1 {
-  margin-right: var(--spacing-one);
-  margin-left: var(--spacing-one);
-}
-
-.mx-2 {
-  margin-right: var(--spacing-two);
-  margin-left: var(--spacing-two);
-}
-
-.my-1 {
-  margin-top: var(--spacing-one);
-  margin-bottom: var(--spacing-one);
-}
-
-.my-2 {
-  margin-top: var(--spacing-two);
-  margin-bottom: var(--spacing-two);
-}
-
-.my-5 {
-  margin-top: var(--spacing-five);
-  margin-bottom: var(--spacing-five);
-}
-
-.px-1 {
-  padding-right: var(--spacing-one);
-  padding-left: var(--spacing-one);
-}
-
-.px-2 {
-  padding-right: var(--spacing-two);
-  padding-left: var(--spacing-two);
-}
-
-.py-1 {
-  padding-top: var(--spacing-one);
-  padding-bottom: var(--spacing-one);
-}
-
-.py-2 {
-  padding-top: var(--spacing-two);
-  padding-bottom: var(--spacing-two);
-}
-
 .card {
   width: 25%;
   text-align: center;
@@ -287,7 +204,7 @@ label {
 }
 
 .portfolioBlock {
-  background: var(--reder);
+  background: var(--black);
   border-radius: 5px;
   margin: 50px auto;
   padding: 30px;
@@ -369,5 +286,5 @@ a {
 
 .navActive:hover {
   text-shadow: 2px 2px;
-  color: #b93131;
+  color: var(--error);
 }
