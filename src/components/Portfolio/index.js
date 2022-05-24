@@ -5,6 +5,28 @@ const Portfolio = () => {
     return (
         <div className='container'>
             <div className="flex-row ">
+
+                {/* my budget */}
+                <div className='portfolioBlock flex-row'>
+                    <div className='live-image '>
+                        <h2 className='portfolio-name-title'>My Budget</h2>
+                        <a href="https://amir-mybudget.herokuapp.com/" target="blank">
+                            <img
+                                src={require(`../../assets/portfolio/my-budget.jpg`)}
+                                alt='my budget app demo'
+                                className="img-thumbnail mx-1"
+                            />
+                        </a>
+                        <p>This M.E.R.N. full stack application dynamically and safely displays the user's sensitive budgeting information once authenticated. JSON Web Token is utilized for secure authentication. This application was created with the aim to streamline and visualize the user's sensitive budget through user created categories. Bootstrap has been used to make the application's styling responsive to even mobile sizes.</p>
+                    </div>
+
+                    <div className='live-repos '>
+                        <a href="https://github.com/AShariat/my-budget" target="blank">
+                            <h4>GitHub</h4>
+                        </a>
+                    </div>
+                </div>
+
                 {/* deep thoughts */}
                 <div className='portfolioBlock flex-row'>
                     <div className='live-image '>
@@ -130,7 +152,7 @@ const Portfolio = () => {
                         </a>
                     </div>
                 </div>
-                
+
             </div>
         </div>
     );
