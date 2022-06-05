@@ -21,7 +21,7 @@ const Portfolio = () => {
                     </div>
 
                     <div className='live-repos '>
-                        <a href="https://github.com/AShariat/my-budget" target="blank">
+                        <a href="https://github.com/KCaseyChamberlain/my-budget" target="blank">
                             <h4>GitHub</h4>
                         </a>
                     </div>
