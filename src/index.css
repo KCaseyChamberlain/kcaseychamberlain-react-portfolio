@@ -1,15 +1,20 @@
 :root {
-  --primary: #8c54ff;
-  --secondary: #F3A847;
-  --tertiary: #B12704;
-  --error: red;
+  --primary: #E43D40;
+  --secondary: #474440;
+  --tertiary: #EEEDE7;
+  --error: #FF7077;
 
   --spacing-one: calc(1rem * 0.5);
   --spacing-two: calc(1rem);
   --spacing-five: calc(2.5rem);
 }
 
+
 /* nav */
+a {
+  color: var(--tertiary);
+}
+
 nav a:hover {
   text-decoration: none;
 }
@@ -17,6 +22,7 @@ nav a:hover {
 .navActive {
   color: pink;
 }
+
 
 /* spacing & flex */
 .px-1 {
@@ -44,16 +50,24 @@ nav a:hover {
 }
 
 
-
 /* header */
+header {
+  background-color: var(--primary);
+}
 
 /* body */
+body {
+  background-color: var(--tertiary);
+}
+
 li {
   list-style: none;
 }
 
 /* footer */
-
+footer {
+  background-color: var(--secondary);
+}
 
 
 /* about   */
