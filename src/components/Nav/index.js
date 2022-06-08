@@ -28,8 +28,8 @@ function Nav(props) {
                 <ul className="flex-row">
 
                     <li className="mx-2">
-                        {/* if aboutSelected is true, the navActive class will be added to the <a> tag */}
-                        <a className={` nav-title ${aboutSelected && 'navActive'}`} href="#about" onClick={() => {
+                        {/* if aboutSelected is true, the nav-active class will be added to the <a> tag */}
+                        <a className={` nav-title ${aboutSelected && 'nav-active'}`} href="#about" onClick={() => {
                             setAboutSelected(true);
                             setContactSelected(false);
                             setPortfolioSelected(false);
@@ -40,7 +40,7 @@ function Nav(props) {
                     </li>
 
                     <li className="mx-2">
-                        <a className={` ${contactSelected && 'navActive'}`} href="#contact" onClick={() => {
+                        <a className={` ${contactSelected && 'nav-active'}`} href="#contact" onClick={() => {
                             setContactSelected(true);
                             setAboutSelected(false);
                             setPortfolioSelected(false);
@@ -51,7 +51,7 @@ function Nav(props) {
                     </li>
 
                     <li className="mx-2 ">
-                        <a className={` ${portfolioSelected && 'navActive'}`} href="#portfolio" onClick={() => {
+                        <a className={` ${portfolioSelected && 'nav-active'}`} href="#portfolio" onClick={() => {
                             setPortfolioSelected(true)
                             setAboutSelected(false);
                             setContactSelected(false);
@@ -62,7 +62,7 @@ function Nav(props) {
                     </li>
 
                     <li className="mx-2">
-                        <a className={` ${resumeSelected && 'navActive'}`} href="#resume" onClick={() => {
+                        <a className={` ${resumeSelected && 'nav-active'}`} href="#resume" onClick={() => {
                             setResumeSelected(true)
                             setAboutSelected(false);
                             setContactSelected(false);

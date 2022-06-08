@@ -19,8 +19,8 @@ nav a:hover {
   text-decoration: none;
 }
 
-.navActive {
-  color: pink;
+.nav-active {
+  color: var(--secondary);
 }
 
 
