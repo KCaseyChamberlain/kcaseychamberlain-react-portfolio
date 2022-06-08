@@ -15,7 +15,7 @@ function Resume() {
                 </a>
                 <h3 id="dev-pro">Developer Proficiencies:</h3>
                 <p>
-                    M.E.R.N., HTML, CSS, JavaScript, React JS, Node.JS, Express.JS, MongoDB, MySQL, NoSQL, Handlebars.JS, Bootstrap, Bulma.
+                    HTML, CSS, JavaScript, MySQL, MongoDB, Express.js, React.js, Node.js, Bootstrap, Heroku, jQuery, Handlebars.js, Git.
                 </p>
             </div>
         </section>
