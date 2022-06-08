@@ -1,0 +1,68 @@
+:root {
+  --primary: #8c54ff;
+  --secondary: #F3A847;
+  --tertiary: #B12704;
+  --error: red;
+
+  --spacing-one: calc(1rem * 0.5);
+  --spacing-two: calc(1rem);
+  --spacing-five: calc(2.5rem);
+}
+
+/* nav */
+nav a:hover {
+  text-decoration: none;
+}
+
+.navActive {
+  color: pink;
+}
+
+/* spacing & flex */
+.px-1 {
+  padding-right: var(--spacing-one);
+  padding-left: var(--spacing-one);
+}
+
+.mx-2 {
+  margin-right: var(--spacing-two);
+  margin-left: var(--spacing-two);
+}
+
+.my-5 {
+  margin-top: var(--spacing-five);
+  margin-bottom: var(--spacing-five);
+}
+
+.flex-row {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.space-between {
+  justify-content: space-between;
+}
+
+
+
+/* header */
+
+/* body */
+li {
+  list-style: none;
+}
+
+/* footer */
+
+
+
+/* about   */
+
+/* contact */
+p.error-text {
+  color: var(--error);
+}
+
+/* portfolio */
+
+/* resume */

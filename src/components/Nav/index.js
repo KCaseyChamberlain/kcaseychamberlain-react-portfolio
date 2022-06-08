@@ -27,9 +27,9 @@ function Nav(props) {
             <nav>
                 <ul className="flex-row">
 
-                    <li >
+                    <li className="mx-2">
                         {/* if aboutSelected is true, the navActive class will be added to the <a> tag */}
-                        <a className={`mx-2 nav-title ${aboutSelected && 'navActive'}`} href="#about" onClick={() => {
+                        <a className={` nav-title ${aboutSelected && 'navActive'}`} href="#about" onClick={() => {
                             setAboutSelected(true);
                             setContactSelected(false);
                             setPortfolioSelected(false);
@@ -39,8 +39,8 @@ function Nav(props) {
                         </a>
                     </li>
 
-                    <li >
-                        <a className={`mx-2 nav-title ${contactSelected && 'navActive'}`} href="#contact" onClick={() => {
+                    <li className="mx-2">
+                        <a className={` ${contactSelected && 'navActive'}`} href="#contact" onClick={() => {
                             setContactSelected(true);
                             setAboutSelected(false);
                             setPortfolioSelected(false);
@@ -50,8 +50,8 @@ function Nav(props) {
                         </a>
                     </li>
 
-                    <li >
-                        <a className={`mx-2 nav-title ${portfolioSelected && 'navActive'}`} href="#portfolio" onClick={() => {
+                    <li className="mx-2 ">
+                        <a className={` ${portfolioSelected && 'navActive'}`} href="#portfolio" onClick={() => {
                             setPortfolioSelected(true)
                             setAboutSelected(false);
                             setContactSelected(false);
@@ -61,8 +61,8 @@ function Nav(props) {
                         </a>
                     </li>
 
-                    <li >
-                        <a className={`mx-2 nav-title ${resumeSelected && 'navActive'}`} href="#resume" onClick={() => {
+                    <li className="mx-2">
+                        <a className={` ${resumeSelected && 'navActive'}`} href="#resume" onClick={() => {
                             setResumeSelected(true)
                             setAboutSelected(false);
                             setContactSelected(false);
