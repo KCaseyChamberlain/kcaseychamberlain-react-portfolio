@@ -54,6 +54,7 @@ nav a:hover {
 header {
   background-color: var(--primary);
   border-bottom: 1px solid var(--secondary);
+  /* padding: 1.7% */
 }
 
 /* body */
@@ -71,10 +72,33 @@ li {
 footer {
   background-color: var(--secondary);
   border-top: 1px solid black;
+  /* padding: .7%; */
+  position: sticky;
+  bottom: 0;
 }
 
 
 /* about   */
+
+.about-text {
+  text-align: center;
+  line-height: 1.5;
+  font-size: 20px;
+  margin-left: 5%;
+  margin-right: 5%;
+
+}
+
+.about-block{
+  background-color: white;
+  margin-left: 5%;
+  margin-right: 5%;
+  margin-top: 2%;
+  padding: 2%;
+
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+
+}
 
 /* contact */
 p.error-text {
