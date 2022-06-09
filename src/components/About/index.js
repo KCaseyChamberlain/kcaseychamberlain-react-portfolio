@@ -4,10 +4,12 @@ import coverImage from "../../assets/cover/cover-image.jpg";
 function About() {
 
     return (
-        <section className="my-5" >
-            <h1 id="about">Who is kcaseychamberlain?</h1>
-            {/* creator bio cover image */}
-            <img src={coverImage} className="my-2" style={{ width: "45%", }} alt="Casey Chamberlain with dog name Cheif" />
+        <section>
+            <div className='hero'>
+                <h1 id="about-title">Who is KCaseyChamberlain?</h1>
+                {/* creator bio cover image */}
+                <img src={coverImage} className="my-2 hero-img" style={{ width: "100%" }} alt="Casey Chamberlain with dog name Cheif"/>
+            </div>
             <div className='about-block'>
                 <p className='about-text'>
                     Recent full stack web developer graduate with previous analyst experience. Professionally educated at the University of Utah. Graduated from the University's Coding Bootcamp in the spring of 2022. Skills and experiences in HTML, CSS, JavaScript, Git, MySQL, NoSQL, Handlebars.js, and a focus on M.E.R.N. full stack web applications. Strengths in teamwork, meeting deadlines, creativity, and self reliance. Known to be a hyperactive and determined individual passionate about developing full stack web applications.
