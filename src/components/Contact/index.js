@@ -5,7 +5,9 @@ function ContactForm() {
     const [formState, setFormState] = useState({ name: '', email: '', message: '' });
 
     const [errorMessage, setErrorMessage] = useState('');
-    const { name, email, message } = formState;
+    // const { name, email, message } = formState;
+    const [val, setVal] = useState();
+
 
     const handleSubmit = (e) => {
         e.preventDefault();
@@ -34,30 +36,30 @@ function ContactForm() {
     };
 
     return (
-        <section className="form-block flex-row">
-            <div>
-            <h1 data-testid="h1tag">Contact me</h1>
-            </div>
-            <form id="contact-form" onSubmit={handleSubmit}>
-                <div>
-                    <label htmlFor="name">Name:</label>
-                    <input type="text" name="name" defaultValue={name} onBlur={handleChange} />
-                </div>
-                <div>
-                    <label htmlFor="email">Email address:</label>
-                    <input type="email" name="email" defaultValue={email} onBlur={handleChange} />
-                </div>
-                <div>
-                    <label htmlFor="message">Message:</label>
-                    <textarea name="message" rows="5" defaultValue={message} onBlur={handleChange} />
-                </div>
-                {errorMessage && (
+        <section className="card flex-row">
+            <main className='form-block'>
+                <h1 className='contact-title'>Contact me</h1>
+                <form id="contact-form" onSubmit={handleSubmit}>
                     <div>
-                        <p className="error-text">{errorMessage}</p>
+                        {/* <label htmlFor="name">Name:</label> */}
+                        <input className='form-input' placeholder="Name" type="text" name="name" value={val} onBlur={handleChange} />
                     </div>
-                )}
-                <button data-testid="button" type="submit">Submit</button>
-            </form>
+                    <div>
+                        {/* <label htmlFor="email">Email address:</label> */}
+                        <input className='form-input' placeholder="Email" type="email" name="email" value={val} onBlur={handleChange} />
+                    </div>
+                    <div>
+                        {/* <label htmlFor="message">Message:</label> */}
+                        <textarea className='form-input' placeholder="Message" name="message" rows="5" value={val} onBlur={handleChange} />
+                    </div>
+                    {errorMessage && (
+                        <div>
+                            <p className="error-text">{errorMessage}</p>
+                        </div>
+                    )}
+                    <button onClick={() => setVal(() => "")}data-testid="button" type="submit">Submit</button>
+                </form>
+            </main>
         </section>
     );
 }
