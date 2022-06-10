@@ -66,6 +66,15 @@ li {
   list-style: none;
 }
 
+a {
+  text-decoration: none;
+  text-shadow: 1px 1px var(--secondary);
+}
+
+a:hover {
+  opacity: 70%;
+}
+
 /* footer */
 footer {
   background-color: var(--secondary);
