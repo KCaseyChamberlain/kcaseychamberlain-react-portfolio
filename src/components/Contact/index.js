@@ -34,8 +34,10 @@ function ContactForm() {
     };
 
     return (
-        <section>
+        <section className="form-block flex-row">
+            <div>
             <h1 data-testid="h1tag">Contact me</h1>
+            </div>
             <form id="contact-form" onSubmit={handleSubmit}>
                 <div>
                     <label htmlFor="name">Name:</label>
