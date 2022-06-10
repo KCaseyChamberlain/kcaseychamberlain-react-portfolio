@@ -76,32 +76,40 @@ footer {
 
 
 /* about   */
-#about-title{
+#about-title {
   font-family: Georgia, 'Times New Roman', Times, serif;
+  text-shadow: 1px 1px #474440;
+  background: hsla(0, 0%, 97%, .5);
+
+  margin-top: 0;
+  padding: 10px;
 }
 
-.hero{
+#hero {
   justify-content: center;
   display: flex;
-  flex-wrap: wrap;
-}
+  height: 505px;
+  padding: 75px;
 
-.hero-img{
+  background: url(./assets/cover/cover-image.jpg);
+  background-size: cover;
+  background-position: center;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 }
+
 
 .about-text {
   text-align: center;
   line-height: 1.5;
   font-size: 20px;
-  margin-left: 5%;
-  margin-right: 5%;
+  margin-left: 6%;
+  margin-right: 6%;
 }
 
-.about-block{
+.about-block {
   background-color: white;
-  margin-left: 5%;
-  margin-right: 5%;
+  margin-left: 6%;
+  margin-right: 6%;
   margin-bottom: 3%;
   margin-top: 2%;
   padding: 2%;
