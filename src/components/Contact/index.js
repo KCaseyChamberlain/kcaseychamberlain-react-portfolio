@@ -3,14 +3,14 @@ import { validateEmail } from '../../utils/helpers';
 
 function ContactForm() {
     const [formState, setFormState] = useState({ name: '', email: '', message: '' });
-
     const [errorMessage, setErrorMessage] = useState('');
-    // const { name, email, message } = formState;
-    const [val, setVal] = useState();
+    
+    const { name, email, message } = formState;
 
 
     const handleSubmit = (e) => {
-        e.preventDefault();
+        alert("Thank you! Casey will be contact in soon.")
+        // e.preventDefault();
         if (!errorMessage) {
             setFormState({ [e.target.name]: e.target.value });
             console.log('Form', formState);
@@ -42,22 +42,22 @@ function ContactForm() {
                 <form id="contact-form" onSubmit={handleSubmit}>
                     <div>
                         {/* <label htmlFor="name">Name:</label> */}
-                        <input className='form-input' placeholder="Name" type="text" name="name" value={val} onBlur={handleChange} />
+                        <input className='form-input' placeholder="Name" type="text" name="name" defaultValue={name} onBlur={handleChange} />
                     </div>
                     <div>
                         {/* <label htmlFor="email">Email address:</label> */}
-                        <input className='form-input' placeholder="Email" type="email" name="email" value={val} onBlur={handleChange} />
+                        <input className='form-input' placeholder="Email" type="email" name="email" defaultValue={email} onBlur={handleChange} />
                     </div>
                     <div>
                         {/* <label htmlFor="message">Message:</label> */}
-                        <textarea className='form-input' placeholder="Message" name="message" rows="5" value={val} onBlur={handleChange} />
+                        <textarea className='form-input' placeholder="Message" name="message" rows="5" defaultValue={message} onBlur={handleChange} />
                     </div>
                     {errorMessage && (
                         <div>
                             <p className="error-text">{errorMessage}</p>
                         </div>
                     )}
-                    <button onClick={() => setVal(() => "")}data-testid="button" type="submit">Submit</button>
+                    <button data-testid="button" type="submit">Submit</button>
                 </form>
             </main>
         </section>

@@ -142,25 +142,24 @@ footer nav {
 .form-block {
   background-color: white;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
-  /* margin: 20px;
-  padding: 30px; */
-  width: 30%;
+  width: 40%;
 }
 
-.contact-title{
+.contact-title {
   background-color: var(--secondary);
   color: var(--tertiary);
-margin-top: 0;
-padding: 20px;
-justify-content: center;
-display: flex;
+  margin-top: 0;
+  padding: 20px;
+  justify-content: center;
+  display: flex;
+  border-bottom: 1px solid black;
 }
 
-form{
+form {
   margin: 30px;
 }
 
-.form-input{
+.form-input {
   margin-bottom: 10px;
   width: 100%;
 }
