@@ -120,12 +120,13 @@ footer nav {
   font-size: 20px;
   margin-left: 6%;
   margin-right: 6%;
+  font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
 .about-block {
   background-color: white;
-  margin-left: 6%;
-  margin-right: 6%;
+  margin-left: 10%;
+  margin-right: 10%;
   margin-bottom: 6%;
   margin-top: 2%;
   padding: 2%;
@@ -186,6 +187,7 @@ p.error-text {
   font-size: 18px;
   margin-left: 10px;
   margin-right: 10px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
 .live-image img {
