@@ -219,3 +219,28 @@ p.error-text {
 }
 
 /* resume */
+
+#resume {
+  font-weight: 600;
+  margin-bottom: 25px;
+  padding-top: 0px;
+  color: black;
+  text-shadow: grey 1px 1px;
+}
+
+#dev-pro {
+  font-size: 18px;
+  margin-left: 10px;
+  margin-right: 10px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  padding-bottom: 20px;
+}
+
+#download{
+  background-color: var(--primary);
+  margin-left: 10px;
+  margin-right: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
+  box-shadow: 2px 2px 2px var(--secondary);
+}

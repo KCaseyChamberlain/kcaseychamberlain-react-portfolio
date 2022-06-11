@@ -10,13 +10,23 @@ function Resume() {
             <img src={resumeImage1} className="my-2" style={{ width: "50%" }} alt="resume page 1" />
             <img src={resumeImage2} className="my-2" style={{ width: "50%" }} alt="resume page 2" />
             <div className="my-2">
-                <a data-testid="devresdoc" href="https://docs.google.com/document/d/1JZmTZZerYMMK7dJCxq2Iew3pQl12C7OrLxBNVcnie2M/edit?usp=sharing" target="blank">
-                    <h4>Download & View Resume Here!</h4>
-                </a>
-                <h3 id="dev-pro">Developer Proficiencies:</h3>
-                <p>
-                    HTML, CSS, JavaScript, MySQL, MongoDB, Express.js, React.js, Node.js, Bootstrap, Heroku, jQuery, Handlebars.js, Git.
-                </p>
+
+                <div  className='flex-row'>
+                    <a id='download' href="https://docs.google.com/document/d/1JZmTZZerYMMK7dJCxq2Iew3pQl12C7OrLxBNVcnie2M/edit?usp=sharing" target="blank">
+                        <h4>Download & View Resume Here!</h4>
+                    </a>
+                </div>
+
+
+
+
+
+                <div id="dev-pro">
+                    <h3 >Developer Proficiencies:</h3>
+                    <p>
+                        HTML, CSS, JavaScript, MySQL, MongoDB, Express.js, React.js, Node.js, Bootstrap, Heroku, jQuery, Handlebars.js, Git.
+                    </p>
+                </div>
             </div>
         </section>
     );
