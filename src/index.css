@@ -230,8 +230,7 @@ p.error-text {
 
 #dev-pro {
   font-size: 18px;
-  margin-left: 10px;
-  margin-right: 10px;
+  margin-left: 25px;
   font-family: Georgia, 'Times New Roman', Times, serif;
   padding-bottom: 20px;
 }
@@ -243,7 +242,6 @@ p.error-text {
   padding-left: 10px;
   padding-right: 10px;
   box-shadow: 2px 2px 2px var(--secondary);
-
 }
 
 .resume-images {
@@ -254,6 +252,6 @@ p.error-text {
 
 #download-resume{
   display: flex;
-  justify-content: end;
+  justify-content: flex-end;
   margin-right: 30px;
 }

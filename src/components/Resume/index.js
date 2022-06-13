@@ -12,13 +12,11 @@ function Resume() {
             </div>
             
             <div className="my-2">
-
                 <div id="download-resume" className='flex-row'>
-                    <a id='download' href="https://docs.google.com/document/d/1JZmTZZerYMMK7dJCxq2Iew3pQl12C7OrLxBNVcnie2M/edit?usp=sharing" target="blank">
-                        <h4>Download & View Resume Here!</h4>
+                    <a id='download' href={require("../../assets/resume/KCaseyChamberlain_Resume.pdf")} download="Casey_Chamberlain_Resume.pdf">
+                        <h4>Download Resume Here!</h4>
                     </a>
                 </div>
-
 
                 <div id="dev-pro">
                     <h3 >Developer Proficiencies:</h3>
