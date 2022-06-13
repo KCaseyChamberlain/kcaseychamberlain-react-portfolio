@@ -71,10 +71,6 @@ a {
   color: var(--tertiary)
 }
 
-/* a:hover {
-  opacity: 70%;
-} */
-
 /* footer */
 footer {
   background-color: var(--secondary);
