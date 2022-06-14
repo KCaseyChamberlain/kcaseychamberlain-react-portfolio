@@ -47,7 +47,6 @@ nav a:hover {
   justify-content: space-between;
 }
 
-
 /* header */
 header {
   background-color: var(--primary);
@@ -86,7 +85,6 @@ footer {
 footer nav {
   margin-right: 5%;
 }
-
 
 /* about   */
 #about-title {
@@ -141,14 +139,34 @@ footer nav {
   width: 40%;
 }
 
-.contact-title {
-  background-color: var(--secondary);
+#contact-title {
   color: var(--tertiary);
+  background-color: var(--secondary);
   margin-top: 0;
-  padding: 20px;
+  padding: 0px;
+  justify-content: center;
+  display: flex;
+}
+
+#contact-title h1 {
+  margin-bottom: 5px;
+  border-bottom: 1px solid grey;
+}
+
+#contact-email {
+  color: var(--tertiary);
+  background-color: var(--secondary);
+  margin-top: 0;
+  padding: 0px;
   justify-content: center;
   display: flex;
   border-bottom: 1px solid black;
+}
+
+#contact-email h3 {
+  color: black;
+  margin: 10px;
+  text-shadow: 0 0 3px var(--tertiary);
 }
 
 form {
@@ -168,7 +186,6 @@ p.error-text {
 .portfolioBlock {
   background: white;
   box-shadow: 0 0 10px var(--secondary);
-
   border-radius: 5px;
   margin: 50px auto;
   padding: 30px;
@@ -215,7 +232,6 @@ p.error-text {
 }
 
 /* resume */
-
 #resume {
   font-weight: 600;
   margin-bottom: 25px;
@@ -246,7 +262,7 @@ p.error-text {
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 }
 
-#download-resume{
+#download-resume {
   display: flex;
   justify-content: flex-end;
   margin-right: 30px;
