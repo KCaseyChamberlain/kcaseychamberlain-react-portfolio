@@ -233,6 +233,7 @@ p.error-text {
   padding-top: 0px;
   color: black;
   text-shadow: grey 1px 1px;
+  justify-content: center;
 }
 
 #dev-pro {
@@ -252,12 +253,13 @@ p.error-text {
 }
 
 .resume-images {
-  margin-left: 20px;
-  margin-right: 20px;
+  margin-left: 10px;
+  margin-right: 10px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 }
 
 #download-resume {
   justify-content: flex-end;
   margin-right: 30px;
+  padding-bottom: 25px;
 }
