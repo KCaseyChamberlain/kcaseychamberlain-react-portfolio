@@ -98,10 +98,8 @@ footer nav {
 
 #hero {
   justify-content: center;
-  display: flex;
   height: 505px;
   padding: 75px;
-
   background: url(./assets/cover/cover-image.jpg);
   background-size: cover;
   background-position: center;
@@ -116,7 +114,7 @@ footer nav {
   font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
-.about-block {
+#about-block {
   background-color: white;
   margin-left: 10%;
   margin-right: 10%;
@@ -127,8 +125,7 @@ footer nav {
 }
 
 /* contact */
-.card {
-  display: flex;
+#card {
   justify-content: center;
   padding: 25px;
 }
@@ -145,7 +142,6 @@ footer nav {
   margin-top: 0;
   padding: 0px;
   justify-content: center;
-  display: flex;
 }
 
 #contact-title h1 {
@@ -159,7 +155,6 @@ footer nav {
   margin-top: 0;
   padding: 0px;
   justify-content: center;
-  display: flex;
   border-bottom: 1px solid black;
 }
 
@@ -213,14 +208,14 @@ p.error-text {
   cursor: pointer;
 }
 
-.live-repos {
+.live-repo {
   width: 50%;
   text-align: right;
   position: relative;
   left: 50%;
 }
 
-.live-repos a {
+.live-repo a {
   color: var(--secondary);
   text-shadow: .5px .5px black;
 }
@@ -263,7 +258,6 @@ p.error-text {
 }
 
 #download-resume {
-  display: flex;
   justify-content: flex-end;
   margin-right: 30px;
 }

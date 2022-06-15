@@ -29,7 +29,7 @@ function Nav(props) {
 
                     <li className="mx-2">
                         {/* if aboutSelected is true, the nav-active class will be added to the <a> tag */}
-                        <a className={` nav-title ${aboutSelected && 'nav-active'}`} href="#about" onClick={() => {
+                        <a className={` ${aboutSelected && 'nav-active'}`} href="#about" onClick={() => {
                             setAboutSelected(true);
                             setContactSelected(false);
                             setPortfolioSelected(false);

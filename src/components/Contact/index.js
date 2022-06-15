@@ -35,12 +35,12 @@ function ContactForm() {
     };
 
     return (
-        <section className="card flex-row">
+        <section id="card" className="flex-row">
             <main className='form-block'>
-                <div id='contact-title'>
+                <div id='contact-title' className='flex-row'>
                     <h1>Contact me</h1>
                 </div>
-                <div id='contact-email'> 
+                <div id='contact-email' className='flex-row'> 
                 <a href={'mailto:caseygchamberlain@gmail.com?subject=I%20Would%20Like%20To%20Hire%20You!&body=You%20would%20be%20a%20great%20addition%20to%20my%20team!'}>
                     <h3>caseygchamberlain@gmail.com</h3>
                     </a>

@@ -20,7 +20,7 @@ const Portfolio = () => {
                         <p>This M.E.R.N. full stack application dynamically and safely displays the user's sensitive budgeting information once authenticated. JSON Web Token is utilized for secure authentication. This application was created with the aim to streamline and visualize the user's sensitive budget through categories. Bootstrap has been used to make the application's styling responsive to even mobile sizes.</p>
                     </div>
 
-                    <div className='live-repos '>
+                    <div className='live-repo'>
                         <a href="https://github.com/KCaseyChamberlain/my-budget" target="blank">
                             <h4>GitHub</h4>
                         </a>
@@ -41,7 +41,7 @@ const Portfolio = () => {
                         <p>This full stack M.E.R.N. application is a forum where the user can securely and dynamically login to their account to view thoughts and reactions of other users.</p>
                     </div>
 
-                    <div className='live-repos '>
+                    <div className='live-repo'>
                         <a href="https://github.com/KCaseyChamberlain/deep-thoughts" target="blank">
                             <h4>GitHub</h4>
                         </a>
@@ -62,7 +62,7 @@ const Portfolio = () => {
                         <p>This full stack web application allows a user to view a storefront for Copy Cat Games' featured products. The login of the user allows features that are not available to users that are not logged in. The application also provides a forum that adds a community aspect to the storefront. The styling of the page was done using the help of Bootstrap. Page templates are provided by Handlebars. MySQL2 is used for the database. User's password information is hashed for security.</p>
                     </div>
 
-                    <div className='live-repos '>
+                    <div className='live-repo'>
                         <a href="https://github.com/KCaseyChamberlain/copy-cat-games" target="blank">
                             <h4>GitHub</h4>
                         </a>
@@ -83,7 +83,7 @@ const Portfolio = () => {
                         <p>This front-end web application makes use of a third party weather API. The user will be able to search for the weather by city. The application will provide the current weather for the city, as well as a 5 day forecast. The cities entered will be remembered and can be reused through a search history feature.</p>
                     </div>
 
-                    <div className='live-repos '>
+                    <div className='live-repo'>
                         <a href="https://github.com/KCaseyChamberlain/6day-six-weather" target="blank">
                             <h4>GitHub</h4>
                         </a>
@@ -104,7 +104,7 @@ const Portfolio = () => {
                         <p>This application demonstrates the use of team work and many third party APIs. UHOO! would like to help the user simplifly their daily information and place it all in one location.</p>
                     </div>
 
-                    <div className='live-repos '>
+                    <div className='live-repo'>
                         <a href="https://github.com/KCaseyChamberlain/uhoo" target="blank">
                             <h4>GitHub</h4>
                         </a>
@@ -125,7 +125,7 @@ const Portfolio = () => {
                         <p>This front-end progressive web application (P.W.A.) uses service workers to cache assets for offline functionality. Utilizes lazy loading. Uses webpack dependency graphs to keep track of needed bundles for each entry point. All this is in place to create an efficient and responsive web application.</p>
                     </div>
 
-                    <div className='live-repos '>
+                    <div className='live-repo'>
                         <a href="https://www.linkedin.com/in/kcaseychamberlain" target="blank">
                             <h4>GitHub</h4>
                         </a>
@@ -146,7 +146,7 @@ const Portfolio = () => {
                         <p>This full stack web application is a CMS-style blog that is hosted live by Heroku. It utilizes some popular packages that include bcrypt, express, mysql2, express-handlebars, express-session, and more.</p>
                     </div>
 
-                    <div className='live-repos '>
+                    <div className='live-repo'>
                         <a href="https://github.com/KCaseyChamberlain/techite" target="blank">
                             <h4>GitHub</h4>
                         </a>

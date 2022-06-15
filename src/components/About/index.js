@@ -7,13 +7,14 @@ function About() {
             <div
                 id='hero'
                 alt="finance image"
+                className='flex-row'
             >
                 <div>
                     <h1 id="about-title">Who is KCaseyChamberlain?</h1>
                 </div>
             </div>
 
-            <div className='about-block'>
+            <div id='about-block'>
                 <p className='about-text'>
                     Recent full stack web developer graduate with previous analyst experience. Professionally educated at the University of Utah. Graduated from the University's Coding Bootcamp in the spring of 2022. Skills and experiences in HTML, CSS, JavaScript, Git, MySQL, NoSQL, Handlebars.js, and a focus on M.E.R.N. full stack web applications. Strengths in teamwork, meeting deadlines, creativity, and self reliance. Known to be a hyperactive and determined individual passionate about developing full stack web applications.
                 </p>
