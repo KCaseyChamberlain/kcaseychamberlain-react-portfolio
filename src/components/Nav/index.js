@@ -14,6 +14,9 @@ function Nav(props) {
 
         resumeSelected,
         setResumeSelected,
+
+        cssArtSelected,
+        setcssArtSelected,
     } = props;
 
     return (
@@ -34,6 +37,7 @@ function Nav(props) {
                             setContactSelected(false);
                             setPortfolioSelected(false);
                             setResumeSelected(false);
+                            setcssArtSelected(false);
                         }}>
                             About Me
                         </a>
@@ -45,6 +49,7 @@ function Nav(props) {
                             setAboutSelected(false);
                             setPortfolioSelected(false);
                             setResumeSelected(false);
+                            setcssArtSelected(false);
                         }}>
                             Contact Me
                         </a>
@@ -56,6 +61,7 @@ function Nav(props) {
                             setAboutSelected(false);
                             setContactSelected(false);
                             setResumeSelected(false);
+                            setcssArtSelected(false);
                         }}>
                             My Portfolio
                         </a>
@@ -67,8 +73,21 @@ function Nav(props) {
                             setAboutSelected(false);
                             setContactSelected(false);
                             setPortfolioSelected(false);
+                            setcssArtSelected(false);
                         }}>
                             My Resume
+                        </a>
+                    </li>
+
+                    <li className="mx-2">
+                        <a id="css-art" className={` ${cssArtSelected && 'nav-active'}`} href="#cssArt" onClick={() => {
+                            setcssArtSelected(true);
+                            setResumeSelected(false)
+                            setAboutSelected(false);
+                            setContactSelected(false);
+                            setPortfolioSelected(false);
+                        }}>
+                            CSS Art
                         </a>
                     </li>
 

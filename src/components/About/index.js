@@ -6,7 +6,7 @@ function About() {
         <section>
             <div
                 id='hero'
-                alt="finance image"
+                alt="Casey and his dog Chief"
                 className='flex-row'
             >
                 <div>
@@ -23,7 +23,7 @@ function About() {
                 </p>
                 <p className='about-text'>
                     My technical experience as an international shipping analyst for one of “America’s Best Midsize Employers” (Forbes), has taught me the importance of the corporate environment and communication. My past experience makes me a strong addition as a developer with a mindset geared towards the small details and the user.                </p>
-            </div>
+            </div>zz
         </section>
     );
 }

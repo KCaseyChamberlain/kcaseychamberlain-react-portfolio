@@ -5,6 +5,7 @@ import Footer from './components/Footer';
 import ContactForm from './components/Contact';
 import Portfolio from './components/Portfolio';
 import Resume from './components/Resume';
+import CssArt from './components/CssArt';
 
 
 function App() {
@@ -13,6 +14,8 @@ function App() {
   const [contactSelected, setContactSelected] = useState(false);
   const [portfolioSelected, setPortfolioSelected] = useState(false);
   const [resumeSelected, setResumeSelected] = useState(false);
+  const [cssArtSelected, setcssArtSelected] = useState(false);
+
 
   return (
     <div>
@@ -28,6 +31,9 @@ function App() {
 
         resumeSelected={resumeSelected}
         setResumeSelected={setResumeSelected}
+
+        cssArtSelected={cssArtSelected}
+        setcssArtSelected={setcssArtSelected}
       ></Nav>
       <main>
 
@@ -45,6 +51,10 @@ function App() {
 
         {resumeSelected && (
           <Resume></Resume>
+        )}
+
+        {cssArtSelected && (
+          <CssArt></CssArt>
         )}
 
       </main>

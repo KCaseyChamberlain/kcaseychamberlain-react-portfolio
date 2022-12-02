@@ -12,6 +12,7 @@
 /* nav */
 a {
   color: var(--tertiary);
+  padding: 15px;
 }
 
 nav a:hover {
@@ -98,11 +99,10 @@ footer nav {
 
 #hero {
   justify-content: center;
-  height: 505px;
+  height: 50vh;
   padding: 75px;
-  background: url(./assets/cover/cover-image.jpg);
+  background: url(./assets/cover/cover-image.jpg) fixed center no-repeat;
   background-size: cover;
-  background-position: center;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 }
 
@@ -263,4 +263,28 @@ p.error-text {
   justify-content: flex-end;
   margin-right: 30px;
   padding-bottom: 25px;
+}
+
+
+/* CSS Art */
+.css-text-wrapper {
+  height: 95vh;
+  background: black;
+  display: grid;
+  place-items: center;
+  overflow: hidden;
+}
+
+.css-text-img {
+  font-size: 7px;
+  line-height: 3px;
+  background: url('./assets/cover/cover-image.jpg') fixed center no-repeat;
+  background-size: contain;
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: rgba(64, 117, 161, 0.1);
+}
+
+#css-art{
+  font-size: smaller;
 }
